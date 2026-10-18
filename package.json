@@ -1,0 +1,24 @@
+{
+  "name": "moodle-claude-bot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsx src/bot.ts",
+    "check": "tsx src/check.ts",
+    "mock": "tsx mock/server.ts",
+    "typecheck": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "playwright": "^1.64.1",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}

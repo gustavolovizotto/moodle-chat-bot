@@ -1,0 +1,6 @@
+node_modules/
+.env
+.moodle-profile/
+.claude-sandbox/
+debug/
+.mock-profile/
